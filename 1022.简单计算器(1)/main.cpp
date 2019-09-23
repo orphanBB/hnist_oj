@@ -80,7 +80,7 @@ void caculate(char *str,int a,int method)
         default:
             result = error;
     }
-    if(result/(int)result!=result)
+    if(result/(int)result!=1)
         cout<< setprecision(1) << std::fixed << result <<endl;
     else
         cout<<result<<endl;
