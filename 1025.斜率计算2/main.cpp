@@ -1,9 +1,10 @@
 #include <iostream>
+#include "algorithm"  //包含__gcd()求最大公约数
 #include "cmath"
 
 using namespace std;
 
-int max_com(int a,int b);
+//int max_com(int a,int b);
 
 int main()
 {
@@ -30,32 +31,33 @@ int main()
         n=abs(n);
         if(m/n==1)
             cout<<m/n<<endl;
-        else if(m/max_com(m,n)==1)
-            cout<<n/max_com(m,n)<<endl;
+        else if(m/__gcd(m,n)==1)
+            cout<<n/__gcd(m,n)<<endl;
         else
         {
-            cout<< (n/max_com(m,n)) << "/" << (m/max_com(m,n))<<endl;
+            cout<< (n/__gcd(m,n)) << "/" << (m/__gcd(m,n))<<endl;
         }
     }
     return 0;
 }
 
 
-int max_com(int a,int b)
-{
-    int temp=a;
-    int i,result;
-    if(a>b)
-    {
-        temp=b;
-    }
-    for(i=temp;i>=1;i--)
-    {
-        if(a%i==0&&b%i==0)
-        {
-            result=i;
-            break;
-        }
-    }
-    return result;
-}
+//int max_com(int a,int b)
+//{
+//    int temp=a;
+//    int i,result;
+//    if(a>b)
+//    {
+//        temp=b;
+//    }
+//    for(i=temp;i>=1;i--)
+//    {
+//        if(a%i==0&&b%i==0)
+//        {
+//            result=i;
+//            break;
+//        }
+//    }
+//    return result;
+//}
+
