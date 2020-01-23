@@ -1,4 +1,4 @@
-# hnist_oj <a href="www.hnist.cn"><img src="hnist_logo.png" style="width:30px;"></a>
+# hnist_oj <a href="http://www.hnist.cn"><img src="hnist_logo.png" style="width:30px;"></a>
 
 
 此仓库用于储存[湖南理工学院oj](http://www.51cpc.com)上的题解
