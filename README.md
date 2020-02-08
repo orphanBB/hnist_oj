@@ -34,35 +34,12 @@ https://github.com/orphanBB/hnist_oj
 ### 结构
 项目有一个master主分支，以及每个程序设计语言一个分支，现在已经有一个主分支以及四个语言分支了。
 #### 分支结构：
-master
-&emsp;|---C
-&emsp;|---C++
-&emsp;|---python
-&emsp;|---java
+![image.png](http://47.106.131.194:8090/upload/2020/2/image-cdbd2e18d95b4d88b20436492a207640.png)
 
 #### 目录结构：
 项目下，每个子目录对应oj上的一个题目，子目录名与题目名相同。子目录下存放源文件及解析文件，解析以markdown形式编写。
 例如：
-master
-&emsp;|---1001.helloworld
-&emsp;|&emsp;&emsp;|---main.c
-&emsp;|&emsp;&emsp;|---main.cpp
-&emsp;|&emsp;&emsp;|---main.java
-&emsp;|&emsp;&emsp;|---main.py
-&emsp;|&emsp;&emsp;|---main.md
-&emsp;|---1002.简单A+B
-&emsp;|&emsp;&emsp;|---main.c
-&emsp;|&emsp;&emsp;|---main.cpp
-&emsp;|&emsp;&emsp;|---main.java
-&emsp;|&emsp;&emsp;|---main.py
-&emsp;|&emsp;&emsp;|---main.md
-&emsp;|---1003.字符正方形
-&emsp;|&emsp;&emsp;|---main.c
-&emsp;|&emsp;&emsp;|---main.cpp
-&emsp;|&emsp;&emsp;|---main.java
-&emsp;|&emsp;&emsp;|---main.py
-&emsp;|&emsp;&emsp;|---main.md
-&emsp;|---... ...
+![image.png](http://47.106.131.194:8090/upload/2020/2/image-56c7b8f4d4784505adc0b361e6360be5.png)
 
 ### push要求
 * push前请确认文件结构及push的分支，不要推送到其他的语言分支。
