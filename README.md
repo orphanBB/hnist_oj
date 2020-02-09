@@ -50,3 +50,6 @@ https://github.com/orphanBB/hnist_oj
 
 ## 感谢参与
 orphanBB![image.png](http://47.106.131.194:8090/upload/2020/2/image-fdca7e6f8252424888b130c6b8357d1b.png) &emsp;&emsp;KADGang![image.png](http://47.106.131.194:8090/upload/2020/2/image-bdbf18d70be245f3b24ac4a643ee4fc0.png) &emsp;&emsp;NCJ-BJS![image.png](http://47.106.131.194:8090/upload/2020/2/image-87db42c39ed944aca009a0c523885c15.png)
+
+## LICENSE
+[MIT 许可证](LICENSE.txt)
