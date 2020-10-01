@@ -1,23 +1,56 @@
 # hnist_oj <a href="http://www.hnist.cn"><img src="images/logo.png" style="width:30px;"></a>
 
-此仓库用于储存[湖南理工学院oj](http://www.51cpc.com)上的题解
-<img src="images/image1.png">
 
-## 仓库的目的
 
-建立这个仓库，一个是发起人想要通过这个项目，掌握git以及github的使用，并且同时伴随着学校新的oj刷一些算法题提升自己的能力。还有就是，希望可以给后面的学弟学妹们刷题的时候一个参考，以及一个在提升算法能力同时提升git和github的能力。github有很多开源项目可以用来学习，甚至有能力可以参与到其中，如果自己有一个开源项目挂在github上或得了近千star，找工作应该是不愁了吧。
 
-## 目录结构
+这是一个online judge的题解项目，主要是针对我们学校——湖南理工学院的online judge上的题目的题解收集。欢迎各位相关专业有兴趣的同学积极参与。🙏
 
-现在的目录结构是，这个仓库根目录下，对应湖南理工学院oj上的题目，每题有一个文件夹，里面有对应题目的.cpp文件，即为此题的C++题解，最初是每个题目的目录下只有一个main.cpp，后期参与，有更好的不同方法的题解方式，可以上传单独的.cpp到题目对应的目录下，不需要在同一个文件中给出不同解法。另外，关于后面的其他语言的题解，上传源文件即可，例如C语言的另外提交一份.c文件在对应题目目录下。
+## 项目地址：
+https://github.com/orphanBB/hnist_oj
 
-## 提交注意
-提交的时候，请将源文件提交到对应的分支下，例如.cpp文件请提交到cpp分支下，.py文件提交到python分支下。
+## [湖南理工学院](http://www.hnist.cn) online judge
+我们学校的oj网站为：www.51cpc.com
+之前是可以自由注册账户的，但是后来老师关闭了注册接口，不知道还能不能注册，学校服务器不是很好，选课的时候人一多就崩，这个oj也是很容易死机，所以估计为了保证流畅，不会再开注册接口，全部由网站的负责人导入用户。
 
-## 关于
+![hnist_oj.png](images/hnist_oj_1.png)
+<center>oj 首页</center><br />
 
-项目现在只有C++语言的题解，希望学校的ACM团队参与并且完善C语言部分的，另外学校搞java的实验室也可以一起参与进来，信息学院的实验室现在相对来说有好的也有发展不是很好的，希望各个实验室能互相合作，这个项目也是希望计算机类专业的实验室能一起参与进来，加强一下交流与合作 ，要是有什么需要一起做的项目，到时候有了合作基础，也不需要很多时间去磨合。
+![image.png](images/image-2c.png)
+<center>oj 题库</center><br />
 
-## 题解文档说明
+## 项目介绍
 
-因为现在的题目还是很基础的，所以并没有配上题解文档，后面会在每种解题方法的同级目录中添加对应文件名的题解说明文档，例如编号为1011的题目，有一种解法的源文件名称为main.cpp，则配上一篇main.md作为题解说明文档，只针对解题方法有一定算法的，简单或者解法相似的可以不搭配对应的题解说明。
+项目主要是为了方便湖南理工学院相关专业的学生在oj上刷题目时，能有个参照，主要目的是为了让部分学生参与到这个项目中，一方面了解git及github的操作，让大家在进入企业前，能提前了解并且熟悉一种版本控制工具。另一方面，希望通过参与这个项目，提高大家的算法分析能力，不仅能解题，更能从题目中看出考察的内容，以及提高对问题的详细分析能力，让自己不是迷迷糊糊的把题目刷了一遍，而是认认真真的把算法理解。
+
+## 目录
+
+[C++源码目录](https://github.com/orphanBB/hnist_oj/tree/cpp)
+[C源码目录](https://github.com/orphanBB/hnist_oj/tree/c)
+[java源码目录](https://github.com/orphanBB/hnist_oj/tree/java)
+[python源码目录](https://github.com/orphanBB/hnist_oj/tree/python)
+
+## 项目说明
+
+### 结构
+项目有一个master主分支，以及每个程序设计语言一个分支，现在已经有一个主分支以及四个语言分支了。
+#### 分支结构：
+![image.png](images/image-cdbd2e18d95b4d88b20436492a207640.png)
+
+#### 目录结构：
+项目下，每个子目录对应oj上的一个题目，子目录名与题目名相同。子目录下存放源文件及解析文件，解析以markdown形式编写。
+例如：
+
+![image.png](images/image-56c7b8f4d4784505adc0b361e6360be5.png)
+
+### push要求
+* push前请确认文件结构及push的分支，不要推送到其他的语言分支。
+* 合并时并不会对源文件运行检查，请尽量确保正确性。
+* 不限开发环境，但请注意不要推送除源文件外的项目文件等与代码无关的文件推送。
+*  解析文档的编写，可以参考leetcode题解项目: https://github.com/azl397985856/leetcode
+
+## 感谢参与
+orphanBB![image.png](images/image-fdca7e6f8252424888b130c6b8357d1b.png) &emsp;&emsp;KADGang![image.png](images/image-bdbf18d70be245f3b24ac4a643ee4fc0.png) &emsp;&emsp;NCJ-BJS![image.png](images/image-87db42c39ed944aca009a0c523885c15.png)
+
+## LICENSE
+[MIT 许可证](LICENSE.txt)
+
