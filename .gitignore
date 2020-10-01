@@ -1,0 +1,8 @@
+*.cbp
+*.layout
+bin
+obj
+*.exe
+*.depend
+*.cpp
+*.py
