@@ -52,4 +52,4 @@ https://github.com/orphanBB/hnist_oj
 orphanBB![image.png](imges/image-fdca7e6f8252424888b130c6b8357d1b.png) &emsp;&emsp;KADGang![image.png](imges/image-bdbf18d70be245f3b24ac4a643ee4fc0.png) &emsp;&emsp;NCJ-BJS![image.png](imges/image-87db42c39ed944aca009a0c523885c15.png)
 
 ## LICENSE
-[MIT 许可证](LICENSE.txt)
+[MIT 许可证](LICENSE)
