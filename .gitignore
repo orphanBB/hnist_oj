@@ -4,5 +4,3 @@ bin
 obj
 *.exe
 *.depend
-*.py
-*.java
